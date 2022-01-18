@@ -11,7 +11,7 @@
       <p><b>- 📫 How to reach me:  xiaoyu_fish@outlook.com</b></p>
     </td>
     <td width="25%">
-      <img src="/XiaoyuMu.jpg" width="100%">      % 插入证件照代码
+      <img src="/XiaoyuMu.png" width="100%">      % 插入证件照代码
     </td>
   </tr>
 </table>
@@ -42,6 +42,11 @@
 - The Third Prize of Blue Bridge Cup Coding Competition, Shandong, China, 2019
 - The Third Prize of Provincial Mathematics Competition, Shandong, China, 2018
 - The Golden Dragon Enterprise Scholarship (top 4%), Yantai University, 2018
+
+### Projects
+11/2021-12/2021  Group Project - Data Analysis with Python, University of Leeds
+- Skills in Python, Matplotlib Method to draw different graphs.
+- Analyse and visualise data in the CSV files, and explain the cause and resultof the problem according to data features and trends.
 
 **Bold** and _Italic_ and `Code` text
 
