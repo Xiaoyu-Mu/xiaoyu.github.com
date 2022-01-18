@@ -23,7 +23,7 @@
 
 09/2017-07/2021   BSc in Computer Science, Yantai University
 
-### 🛠 Tech Stack
+### 🛠 Skills
 
 - 💻 &nbsp; Python | C | Java | C++ | SQL 
 - 🌐 &nbsp; Android | HTML | CSS | JavaScript 
