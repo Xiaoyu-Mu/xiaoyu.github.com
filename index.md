@@ -84,7 +84,7 @@ def pltcorrCO2GDP(co2,gdp,area):
 - Take pictures of the target, identify the circles, and calculate the center of thecircles. Finally, select and order the circles. This technique is ised to calibratecamera in computer vision.
 
 ```
-//image processing
+#image processing
 cvtColor(src, gray_src, COLOR_BGRA2GRAY); 
 threshold(gray_src, gray_src, 0, 255, THRESH_OTSU | THRESH_BINARY); 
 Mat kernel = getStructuringElement(MORPH_RECT, Size(5, 5), Point(-1, -1)); 
@@ -96,7 +96,7 @@ vector <vector<Point> > contours;
 vector<Vec4i> hireachy; 
 findContours(dst, contours, hireachy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point());
 
-//get Homography Matrix 
+#get Homography Matrix 
 Mat h = findHomography(tubaodian, tubaodian1);//opencv function
 Mat q= Mat(3, 1, CV_32FC1);
 ```
