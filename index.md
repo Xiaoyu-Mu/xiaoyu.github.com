@@ -46,11 +46,11 @@
 ### Projects
 11/2021-12/2021  Group Project - Data Analysis with Python, University of Leeds
 - Skills in Python, Matplotlib Method to draw different graphs.
-- Analyse and visualise data in the CSV files, and explain the cause and resultof the problem according to data features and trends.
+- Analyse and visualise data in the CSV files, and explain the cause and result of the problem according to data features and trends.
 ![Image](P4DS1.png)
 
 11/2021-12/2021  Group Project - Analysis Case Study, University of Leeds
-- Skills in Tableau.
+- Skills in Tableau, visualise data using Tableau.
 - Analyse data about NHS Dental Statistics for England for 12 months.
 ![Image](Tableau3.png)
 
