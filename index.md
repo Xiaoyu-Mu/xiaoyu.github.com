@@ -71,7 +71,7 @@ def pltcorrCO2GDP(co2,gdp,area):
     ax1.xaxis.set_major_locator(ticker.MultipleLocator(base=8))
 
     plt.show()
-  ```
+```
 ![Image](P4DS1.png)
 
 11/2021-12/2021  Group Project - Analysis Case Study, University of Leeds
