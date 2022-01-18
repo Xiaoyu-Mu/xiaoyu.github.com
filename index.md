@@ -24,7 +24,7 @@
 09/2017-07/2021   BSc in Computer Science, Yantai University
 
 ### Skills
-
+ 
 - C++
 - Python 
 - Tableau
@@ -110,67 +110,59 @@ Mat q= Mat(3, 1, CV_32FC1);
 - Developed a web application for the Intelligent Home System.
 
 ``` 
-//初始化本机socket信息
+//Initialize the local socket information  
 $this->_init($address, $port);
-//将socket加入到连接池中
 $this->sockets[] = $this->master;
-//监听和数据处理
+//Monitoring and data processing
 while(true){
-//得到连接池
 $sockets = $this->sockets;
 var_dump($sockets);
 var_dump($this->clients);
-//IO复用完成多客户端，$sockets为引用型参数，最后得到的为有主机连接或者有数据接收的socket集合
+//IO multiplexing is completed with multiple clients and socket sets are obtained
 $symbol = socket_select($sockets, $this->write, $this->except, NULL);
 if($symbol == false){
 echo"socket_select() failed,reason:".socket_strerror(socket_last_error())."\n";
 die();
 }
-//遍历socket进行接收收据
+//Use socket to receive data  
 foreach($sockets as $socket){
-//有主机要连接数据
 if($socket == $this->master){
-//绑定客户端
 $client = socket_accept($this->master);
 if($client){
-//表示接收到客户端
-//加入socket连接池和用户池
+
 $this->sockets[] = $client;
-$this->clients[] = array('familyNo'  => null,//家庭号
-'is_user'	=> false,	//表明是否为用户
-'socket' => $client,//握手信息
+$this->clients[] = array('familyNo'  => null,
+'is_user'	=> false,	
+'socket' => $client,
 'handshake' => false
 );
 }else{
 echo "socket_accept() failed";
-continue;	//处理其它socket
+continue;	//processing other socket
 }
 }else{
-//接收数据
+//receive data
 $bytes = @socket_recv($socket, $buffer, 2048 ,0);
-$index = $this->_getUserIndex($socket);	//输出用户信息
+$index = $this->_getUserIndex($socket);	//user's information
 if($index == -1){continue;}
-//得到用户下标
 if($bytes == 0){
-//断开服务器与客户端的连接
+//Disconnect the server from the client
 $this->_disConnect($socket);
-//将用户去掉
+//remove user
 $this->_deleteUser($index);
 continue;
 }
 if(!$this->clients[$index]['handshake']){
-//握手
 if($this->_doHandShake($socket, $buffer, $index)){
 echo "handshake success!\n";
 $msg = array(
 'infoNo'=>'0',
-'info'	=>"握手成功"	//加密问题
+'info'	=>"握手成功"	//Encryption problem
 );	//ok
 $this->_send($socket, json_encode($msg));
 }else{
-//得到家庭号
 echo "send message\n";
-//得到数据部分并进行json解密
+//Get the data portion and decrypt it with JSON
 $info = json_decode($this->_decode($buffer));
 
 ```
