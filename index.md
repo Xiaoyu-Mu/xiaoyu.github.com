@@ -27,7 +27,7 @@
 
 - 💻 &nbsp; Python | C | Java | C++ | SQL 
 - 🌐 &nbsp; Android | HTML | CSS | JavaScript 
-- 🛢 &nbsp; MySQL 
+- 🛢  &nbsp;  MySQL |
 - 🔧 &nbsp; PyCharm | Visual Studio code | Eclipse | Linux | Jupyter | Tableau
 
 ### ⭐️ Most Used Languages
