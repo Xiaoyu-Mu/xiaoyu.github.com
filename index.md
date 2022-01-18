@@ -48,6 +48,30 @@
 11/2021-12/2021  Group Project - Data Analysis with Python, University of Leeds
 - Skills in Python, Matplotlib Method to draw different graphs.
 - Analyse and visualise data in the CSV files, and explain the cause and result of the problem according to data features and trends.
+```
+def pltcorrCO2GDP(co2,gdp,area):
+
+    plt.plot(co2.keys(), co2.values())
+
+    # Label the axes
+    plt.xlabel('Year')
+    plt.ylabel(co2data['Indicator Name'].iloc[0])
+
+    #label the figure
+    plt.title('CO2 Emissions and GDP per capita in '+area)
+
+    #set x axis ticker
+    ax = plt.gca()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(base=8))
+
+    #plot gdp data
+    ax1=ax.twinx()
+    ax1.plot(gdp.keys(),gdp.values(),'r')
+    ax1.set_ylabel(gdpdata['Indicator Name'].iloc[0])
+    ax1.xaxis.set_major_locator(ticker.MultipleLocator(base=8))
+
+    plt.show()
+  ```
 ![Image](P4DS1.png)
 
 11/2021-12/2021  Group Project - Analysis Case Study, University of Leeds
