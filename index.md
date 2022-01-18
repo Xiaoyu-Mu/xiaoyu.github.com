@@ -107,4 +107,4 @@ Mat q= Mat(3, 1, CV_32FC1);
 - Developed a web application for the Intelligent Home System.
 ![Image](homesystem.png)
  
-
+ 
