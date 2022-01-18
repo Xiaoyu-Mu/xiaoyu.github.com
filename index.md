@@ -135,8 +135,7 @@ $this->sockets[] = $client;
 $this->clients[] = array('familyNo'  => null,
 'is_user'	=> false,	
 'socket' => $client,
-'handshake' => false
-);
+'handshake' => false);
 }else{
 echo "socket_accept() failed";
 continue;	//processing other socket
