@@ -1,4 +1,4 @@
-## 👨 Welcome to Xiaoyu's Pages
+## 👨🏻‍💻 Welcome to Xiaoyu's Pages
 
 <table border="0">
   <tr>
@@ -29,8 +29,19 @@
 - 🌐 &nbsp; Android | HTML | CSS | JavaScript 
 - 🛢 &nbsp; MySQL 
 - 🔧 &nbsp; PyCharm | Visual Studio code | Eclipse | Linux | Jupyter | Tableau
+
+### ⭐️ Most Used Languages
+
+- Python(90%)
+- Jupyter Notebook(70%)
+- C++(60%)
+- Tableau(50%)
+- Java(2%)
+- CSS(1%)
+- JavaScript(1%)
+
  
-### Awards
+### 🌱 Awards
 
 - Excellent bachelor’s degree thesis of College (top 2%), Yantai University, 2021
 - School-level outstanding graduate awards (top 2%), Yantai University, 2021
@@ -41,7 +52,7 @@
 - The Third Prize of Provincial Mathematics Competition, Shandong, China, 2018
 - The Golden Dragon Enterprise Scholarship (top 4%), Yantai University, 2018
 
-### Projects
+### ✍️ Projects
 11/2021-12/2021  Group Project - Data Analysis with Python, University of Leeds
 - Skills in Python, Matplotlib Method to draw different graphs.
 - Analyse and visualise data in the CSV files, and explain the cause and result of the problem according to data features and trends.
