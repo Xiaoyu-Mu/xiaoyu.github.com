@@ -58,5 +58,5 @@
 - Skills in HTML and CSS, and MySQL.
 - Developed a web application for the Intelligent Home System.
 ![Image](homesystem.png)
-
+ 
 
