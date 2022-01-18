@@ -1,9 +1,21 @@
 ## Welcome to Xiaoyu's Pages
-- 👋 Hi, I’m Xiaoyu Mu, a student of University of Leeds.
-- 👀 I’m interested in watching films, programming, learning new things, sharing my life...
-- 🌱 I’m currently learning machine learning...
-- 💞️ I’m looking to a good job.
-- 📫 How to reach me: xiaoyu_fish@outlook.com
+
+<table border="0">
+  <tr>
+    <td width="75%">
+      <h1> Xiaoyu Mu</h1>
+      <p><b>- 👋Hi, I’m Xiaoyu Mu, a postgraduate of University of Leeds.</b></p>
+      <p><b>- 👀 I’m interested in watching films, programming, running, sharing my life...</b></p>
+      <p><b>- 💞️ I’m looking to a good job.</b></p>
+      <p><b>- 🌱 I’m currently learning Advanced Computer Science.</b></p>
+      <p><b>- 📫 How to reach me:  xiaoyu_fish@outlook.com</b></p>
+    </td>
+    <td width="25%">
+      <img src="/XiaoyuMu.jpg" width="100%">      % 插入证件照代码
+    </td>
+  </tr>
+</table>
+
 
 ### Education
 09/2021-09/2022   MSc in Advanced Computer Science, University of Leeds
