@@ -32,7 +32,7 @@
 - C
 - Linux
 - Opencv
-
+ 
 ### Awards
 
 - Excellent bachelor’s degree thesis of College (top 2%), Yantai University, 2021
