@@ -1,4 +1,4 @@
-## Welcome to Xiaoyu's Pages
+## 👨 Welcome to Xiaoyu's Pages
 
 <table border="0">
   <tr>
@@ -17,21 +17,18 @@
 </table>
 
 
-### Education
+### 🎓 Education
 09/2021-09/2022   MSc in Advanced Computer Science, University of Leeds
 
 
 09/2017-07/2021   BSc in Computer Science, Yantai University
 
-### Skills
- 
-- C++
-- Python 
-- Tableau
-- SQL
-- C
-- Linux
-- Opencv
+### 🛠 Tech Stack
+
+- 💻 &nbsp; Python | C | Java | C++ | SQL 
+- 🌐 &nbsp; Android | HTML | CSS | JavaScript 
+- 🛢 &nbsp; MySQL 
+- 🔧 &nbsp; PyCharm | Visual Studio code | Eclipse | Linux | Jupyter | Tableau
  
 ### Awards
 
@@ -168,3 +165,12 @@ $info = json_decode($this->_decode($buffer));
 ```
 
 ![Image](homesystem.png)
+
+<h3> 🤝🏻 Connect with Me </h3>
+
+<p align="center">
+&nbsp; <a href="https://twitter.com/_souvik_guria" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/twitter.png" width="50" /></a>  
+&nbsp; <a href="https://www.instagram.com/the_caffeine__addict/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/instagram-new.png" width="50" /></a>  
+&nbsp; <a href="https://www.linkedin.com/in/souvik-guria-/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
+&nbsp; <a href="mailto:souvikguria98@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
+</p>
