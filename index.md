@@ -1,25 +1,35 @@
 ## Welcome to Xiaoyu's Pages
+- 👋 Hi, I’m Xiaoyu Mu, a student of University of Leeds.
+- 👀 I’m interested in watching films, programming, learning new things, sharing my life...
+- 🌱 I’m currently learning machine learning...
+- 💞️ I’m looking to a good job.
+- 📫 How to reach me: xiaoyu_fish@outlook.com
 
-You can use the [editor on GitHub](https://github.com/Xiaoyu-Mu/xiaoyu.github.com/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Education
+09/2021-09/2022   MSc in Advanced Computer Science, University of Leeds
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+09/2017-07/2021   BSc in Computer Science, Yantai University
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Skills
 
-```markdown
-Syntax highlighted code block
+- C++
+- Python 
+- Tableau
+- SQL
+- C
+- Linux
 
-# Header 1
-## Header 2
-### Header 3
+### Awards
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
+- Excellent bachelor’s degree thesis of College (top 2%), Yantai University, 2021
+- School-level outstanding graduate awards (top 2%), Yantai University, 2021
+- The Outstanding Student Scholarship (top 8%), Yantai University, 2020
+- The Xinde Enterprise Encouragement Scholarship (top 2%), Yantai University, 2019
+- The National Second Prize of ASC International Student CS Challenge, China, 2019
+- The Third Prize of Blue Bridge Cup Coding Competition, Shandong, China, 2019
+- The Third Prize of Provincial Mathematics Competition, Shandong, China, 2018
+- The Golden Dragon Enterprise Scholarship (top 4%), Yantai University, 2018
 
 **Bold** and _Italic_ and `Code` text
 
