@@ -58,7 +58,25 @@
 11/2020-06/2021  Final Year Project - Recognition Circular Pattern Plane Target Based on Graph Algorithm, Yantai University
 - Skills in C++, Clustering, Graph Theory, Calibrate Camera, Convex Algorithms,Homography Matrix Algorithms, Shortest Distance Algorithms.
 - Take pictures of the target, identify the circles, and calculate the center of thecircles. Finally, select and order the circles. This technique is ised to calibratecamera in computer vision.
+```
+//image processing
+cvtColor(src, gray_src, COLOR_BGRA2GRAY); 
+threshold(gray_src, gray_src, 0, 255, THRESH_OTSU | THRESH_BINARY); 
+Mat kernel = getStructuringElement(MORPH_RECT, Size(5, 5), Point(-1, -1)); 
+morphologyEx(gray_src, dst, MORPH_CLOSE, kernel, Point(-1, -1)); 
+kernel = getStructuringElement(MORPH_RECT, Size(5, 5), Point(-1, -1)); 
+morphologyEx(dst, dst, MORPH_OPEN, kernel, Point(-1, -1)); 
+imshow("open image", dst); 
+vector <vector<Point> > contours; 
+vector<Vec4i> hireachy; 
+findContours(dst, contours, hireachy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point());
+
+//get Homography Matrix 
+Mat h = findHomography(tubaodian, tubaodian1);//opencv function
+Mat q= Mat(3, 1, CV_32FC1);
+```
 ![Image](Finalyearproject.png)
+
 
 05/2020-06/2020  Group Project - Developing a Web Application, Yantai University
 - Skills in HTML and CSS, and MySQL.
