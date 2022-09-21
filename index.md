@@ -31,13 +31,13 @@
 
 ### ⭐️ Most Used Languages
 
-- Python(expert)
-- C++(expert)
-- SQL(excellent)
-- Tableau(familiar)
-- Java(familiar)
-- CSS(beginner)
-- JavaScript(beginner)
+- Python (Expert)
+- C++ (Expert)
+- SQL (Excellent)
+- Tableau (Familiar)
+- Java (Familiar)
+- CSS (Beginner)
+- JavaScript (Beginner)
 
  
 ### 🌱 Awards
