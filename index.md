@@ -4,10 +4,9 @@
   <tr>
     <td width="75%">
       <h1> Xiaoyu Mu</h1>
-      <p><b>- 👋Hi, I’m Xiaoyu Mu, a postgraduate of University of Leeds.</b></p>
+      <p><b>- 👋Hi, I’m Xiaoyu Mu, a postgraduate in Advanced Computer Science of University of Leeds.</b></p>
+      <p><b>- 💞️ I’m looking for a good software engineer position.</b></p>
       <p><b>- 👀 I’m interested in watching films, programming, running, sharing my life...</b></p>
-      <p><b>- 💞️ I’m looking to a good job.</b></p>
-      <p><b>- 🌱 I’m currently learning Advanced Computer Science.</b></p>
       <p><b>- 📫 How to reach me:  xiaoyu_fish@outlook.com</b></p>
     </td>
     <td width="25%">
@@ -32,13 +31,13 @@
 
 ### ⭐️ Most Used Languages
 
-- Python(90%)
-- Jupyter Notebook(70%)
-- C++(60%)
-- Tableau(50%)
-- Java(2%)
-- CSS(1%)
-- JavaScript(1%)
+- Python(expert)
+- C++(expert)
+- SQL(excellent)
+- Tableau(familiar)
+- Java(familiar)
+- CSS(beginner)
+- JavaScript(beginner)
 
  
 ### 🌱 Awards
